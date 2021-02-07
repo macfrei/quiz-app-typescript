@@ -1,7 +1,7 @@
-const world = 'world'
+const world = 'bla'
 
 export function hello(word: string): string {
   return `Hello ${word}! `
 }
 
-hello(world)
+console.log(hello(world))
